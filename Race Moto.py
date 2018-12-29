@@ -23,7 +23,7 @@ backpicteh = pygame.image.load('back_teh3.png')
 intro_pic = pygame.image.load('intro1.jpg')
 thing=[0,1,2,3,4,5]
 for i in range(5):
-    thing[i] = pygame.image.load('cars\\1_%d.png'%i)
+    thing[i] = pygame.image.load('1_%d.png'%i)
 thingwidth = [206,264,249,218,230,210]
 thingheight= [71,80,76,73,74,76]
 def buttom(msg,x,y,w,h,ic,ac,action=None):
